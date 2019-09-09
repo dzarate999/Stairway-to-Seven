@@ -1,7 +1,2 @@
-let tag = "#";
-let count = 1;
-while (count <= 7) {
-  console.log(tag);
-  tag = tag + "#";
-  count = count + 1;
-}
+for (let line = "#"; line.length < 8; line += "#")
+  console.log(line);
